@@ -1,0 +1,28 @@
+{
+    "name": "citizen",
+    "description": "",
+    "author": "Purplerain <daaniel08@protonmail.com>",
+    "version": "1.0.0",
+    "license": "MIT",
+    "homepage": "https://github.com/gitservice-daniel/citizen",
+    "scripts": {
+        "build": "tsc -p tsconfig.json && npm run copy:meta",
+        "watch": "tsc -w -p tsconfig.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gitservice-daniel/citizen.git"
+    },
+    "bugs": {
+        "url": "https://github.com/gitservice-daniel/citizen/issues"
+    },
+    "devDependencies": {
+        "@altv/types-client": "^2.3.1",
+        "@altv/types-natives": "^1.4.5",
+        "@altv/types-server": "^2.4.4",
+        "@altv/types-webview": "^1.0.4",
+        "@types/node": "^18.7.7",
+        "npm-check-updates": "^16.0.5",
+        "typescript": "^4.7.4"
+    }
+}
